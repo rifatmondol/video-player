@@ -1,0 +1,69 @@
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=
+Theme name: Player theme
+Theme Description: Its an awesome popup html video section theme
+Author name: Md. Rifat Mondol
+Author URI: https://www.github.com/rifatmondol
+Theme version: 1.0 
+=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+body{
+	margin: 0;
+}
+.video-container{
+	display: flex;
+}
+.section-left,.section-right{
+	width: 50%;
+}
+.section-left{
+	position: relative;
+}
+.section-left img{
+	width: 85%;
+  height: 100%;
+	box-shadow: 7px 7px 14px -4px #656565;
+}
+.section-left a {
+  position: absolute;
+  right: 9%;
+  top: 42%;
+  padding: 30px 35px;
+  background: #2ECC71;
+  border-radius: 50%;
+}
+.section-left i{
+	font-size: 10px;
+	color: #fff;
+	position: relative;
+	right: -1px;
+}
+
+/* section right section css */
+.section-right-content{
+	font-family: 'Do Hyeon', sans-serif;
+	margin-top: 15%;
+	width: 75%;
+}
+.section-right-content h2{
+	color: #373737;
+	font-weight: 800;
+}
+.section-right-content p{
+	color: #808080;
+	font-size: 16px;
+	line-height: 25px;
+}
+.section-right-content ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.section-right-content ul li{
+	line-height: 35px;
+}
+.section-right-content ul li i{
+	color: #2ECC71;
+	margin-right: 15px;
+}
