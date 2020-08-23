@@ -44,7 +44,7 @@ body{
 /* section right section css */
 .section-right-content{
 	font-family: 'Do Hyeon', sans-serif;
-	margin-top: 11.5%;
+	margin-top: 11.8%;
 	width: 75%;
 }
 .section-right-content h2{
@@ -57,6 +57,7 @@ body{
 	line-height: 25px;
 }
 .section-right-content ul{
+	position:absolute;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
